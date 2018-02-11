@@ -1,0 +1,17 @@
+юдUART_CONTROL
+   юдmain  0/297  Ram=2
+      цд??0??
+      цд@DIV1616  0/38  Ram=5
+      цд@PSTRINGCN7_60  0/72  Ram=4
+      Ё  цд@PUTCHAR_1_  0/37  Ram=1
+      Ё  юд@PUTCHAR_1_  0/37  Ram=1
+      цд@PRINTF_LD_60  0/117  Ram=8
+      Ё  юд@PUTCHAR_1_  0/37  Ram=1
+      цд@PSTRINGCN7_60  0/72  Ram=4
+      Ё  цд@PUTCHAR_1_  0/37  Ram=1
+      Ё  юд@PUTCHAR_1_  0/37  Ram=1
+      цд@PRINTF_LD_60  0/117  Ram=8
+      Ё  юд@PUTCHAR_1_  0/37  Ram=1
+      цд@PUTCHAR_1_  0/37  Ram=1
+      цд@PUTCHAR_1_  0/37  Ram=1
+      юд@delay_ms1  0/21  Ram=1

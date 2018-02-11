@@ -1,0 +1,48 @@
+
+ROM used: 595 (29%)
+          595 (29%) including unused fragments
+
+          1 Average locations per line
+          12 Average locations per statement
+
+RAM used: 7 (5%) at main() level
+          40 (31%) worst case
+
+Stack used: 2 worst case (out of 16 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   81    50 100  UART_CONTROL.c
+  450     0   0  ..\..\..\..\..\Program Files (x86)\PICC\devices\16F1823.h
+----- -----
+  531    50 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21   4   1             @delay_ms1
+0     37   6   1             @PUTCHAR_1_
+0    297  50   2  1629  9.3  main
+0     38   6   5             @DIV1616
+0     10   2   0             @const78
+0     72  12   4             @PSTRINGCN7_60
+0    117  20   8             @PRINTF_LD_60
+
+Program metrics:
+    Functions               1
+    Statements              50
+    Comments                112
+    Volume (V)              1645
+    Difficilty (D)          8.8
+    Effort to implement (E) 14481
+    Time to implement (T)   13 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   7
+    Maintainability (MI)    36
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     3  0  
+00003-007FF   592  1453  
+
+
+

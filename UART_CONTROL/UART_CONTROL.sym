@@ -1,0 +1,85 @@
+004-005 @WRITE_PACKED_MEMORY.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+004-005 @READ_PACKED_MEMORY.P3
+006-007 @READ_PACKED_MEMORY.P1
+006-007 @WRITE_PACKED_MEMORY.P2
+020     @SCRATCH
+021     @SCRATCH
+021     _RETURN_
+022     @SCRATCH
+023     @SCRATCH
+025-026 main.acc
+027-028 main.dirX
+029-02A main.dirY
+02B-02C main.yaw
+02D.0   main.revF
+02E-02F main.cnt
+030     @PSTRINGCN7_60.P1
+030-031 @PRINTF_LD_60.P2
+030     @delay_ms1.P3
+030     main.@SCRATCH1
+031     main.@SCRATCH2
+031     @PSTRINGCN7_60.@SCRATCH1
+032-033 @DIV1616.P1
+032     @PSTRINGCN7_60.@SCRATCH2
+032     @PRINTF_LD_60.@SCRATCH1
+033     @PSTRINGCN7_60.@SCRATCH3
+033     @PRINTF_LD_60.@SCRATCH2
+034-035 @DIV1616.P1
+034     @PRINTF_LD_60.@SCRATCH3
+035     @PRINTF_LD_60.@SCRATCH4
+036     @DIV1616.@SCRATCH1
+036     @PRINTF_LD_60.@SCRATCH5
+037     @PRINTF_LD_60.@SCRATCH6
+038     @PUTCHAR_1_.P1
+111.6   C1OUT
+113.6   C2OUT
+191-192 @READ_PROGRAM_MEMORY8.P1
+291     CCP_1
+291     CCP_1_LOW
+292     CCP_1_HIGH
+
+ROM Allocation:
+0115  @delay_ms1
+0033  @PUTCHAR_1_
+012A  main
+000D  @DIV1616
+0003  @const78
+0058  @PSTRINGCN7_60
+00A0  @PRINTF_LD_60
+012A  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Users\FELIPE\Documents\PIC\UART_CONTROL\
+
+Project Files:
+    UART_CONTROL.c
+    ..\..\..\..\..\Program Files (x86)\PICC\devices\16F1823.h
+
+Units:
+    C:\Users\FELIPE\Documents\PIC\UART_CONTROL\UART_CONTROL (main)
+
+Compiler Settings:
+    Processor:      PIC16F1823
+    Pointer Size:   8
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Enhanced 16:    Yes
+
+Output Files:
+    Errors:      UART_CONTROL.err
+    Ext Symbols: UART_CONTROL.esym
+    INHX8:       UART_CONTROL.hex
+    Symbols:     UART_CONTROL.sym
+    List:        UART_CONTROL.lst
+    Debug/COFF:  UART_CONTROL.cof
+    Project:     UART_CONTROL.PJT
+    Call Tree:   UART_CONTROL.tre
+    Statistics:  UART_CONTROL.sta
